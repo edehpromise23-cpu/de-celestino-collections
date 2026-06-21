@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>De Celestino Collections</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== Top Bar ===== -->
+<div class="topbar">
+  <div class="topbar-inner">
+    <a href="#top" class="brandmark">
+      <div class="brand-badge">DC</div>
+      <div class="brandmark-text">De Celestino
+        <span>COLLECTIONS</span>
+      </div>
+    </a>
+    <nav class="primary" id="primaryNav">
+      <a href="#collection">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <a href="https://wa.me/2348064945870" class="nav-cta" target="_blank" rel="noopener">Order on WhatsApp</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+  </div>
+</div>
+
+<!-- ===== Hero ===== -->
+<section class="hero" id="top">
+  <div class="hero-content">
+    <div class="hero-badge">DC</div>
+    <p class="eyebrow hero-eyebrow">A Home For Quality Men's Outfit</p>
+    <h1 class="hero-title">Premium Menswear,<br><span>Styled Right.</span></h1>
+    <p class="hero-sub">Jeans, tees, tracksuits, footwear and more — curated pieces for men who pay attention to detail. Browse below and order directly on WhatsApp.</p>
+    <div class="hero-actions">
+      <a href="#collection" class="btn btn-primary">Shop Collection</a>
+      <a href="https://wa.me/2348064945870" class="btn btn-outline" target="_blank" rel="noopener">Chat to Order</a>
+    </div>
+  </div>
+  <div class="hero-scroll"><div class="line"></div>SCROLL</div>
+</section>
+
+<!-- ===== Collection ===== -->
+<section id="collection">
+  <div class="section-head">
+    <p class="eyebrow">The Collection</p>
+    <h2>Shop The Latest</h2>
+    <p>Every item below is in stock and ready to ship. Tap any photo to view it full size, or tap "Order" to message us directly.</p>
+  </div>
+
+  <div class="cat-strip">
+    <button class="cat-chip active" data-filter="all">All</button>
+    <button class="cat-chip" data-filter="denim">Denim</button>
+    <button class="cat-chip" data-filter="tee">Tees</button>
+    <button class="cat-chip" data-filter="footwear">Footwear</button>
+    <button class="cat-chip" data-filter="sets">Tracksuits & Sets</button>
+    <button class="cat-chip" data-filter="shorts">Shorts</button>
+  </div>
+
+  <div class="grid" id="productGrid">
+
+    <div class="card" data-cat="sets">
+      <div class="card-frame"><span class="card-tag">New In</span><img src="https://i.imgur.com/9cVUGzN.jpeg" alt="Cream red and navy colourblock tracksuit set" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tracksuits & Sets</p>
+        <h3 class="card-title">Colourblock Tracksuit Set</h3>
+        <div class="card-foot"><span class="card-price">Jacket & Pants</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Colourblock%20Tracksuit%20Set" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="denim">
+      <div class="card-frame"><span class="card-tag">New In</span><img src="https://i.imgur.com/61OtDhU.jpeg" alt="Black studded flare jeans" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Denim</p>
+        <h3 class="card-title">Studded Flare Jeans</h3>
+        <div class="card-foot"><span class="card-price">Black</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Studded%20Flare%20Jeans" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="footwear">
+      <div class="card-frame"><img src="https://i.imgur.com/W6REnHI.jpeg" alt="White and grey chunky sneakers" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Footwear</p>
+        <h3 class="card-title">Chunky Trainers</h3>
+        <div class="card-foot"><span class="card-price">White / Grey</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Chunky%20Trainers" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="tee">
+      <div class="card-frame"><img src="https://i.imgur.com/RpUNggh.jpeg" alt="White Faith graphic tee with red cross print" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tees</p>
+        <h3 class="card-title">Faith Graphic Tee</h3>
+        <div class="card-foot"><span class="card-price">White</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Faith%20Graphic%20Tee" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="shorts">
+      <div class="card-frame"><img src="https://i.imgur.com/dY28UUK.jpeg" alt="Grey camo print denim shorts" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Shorts</p>
+        <h3 class="card-title">Camo Print Shorts</h3>
+        <div class="card-foot"><span class="card-price">Grey Camo</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Camo%20Print%20Shorts" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="sets">
+      <div class="card-frame"><img src="https://i.imgur.com/8ffl5x7.jpeg" alt="Grey wide leg sweatpants" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Trousers</p>
+        <h3 class="card-title">Wide Leg Sweatpants</h3>
+        <div class="card-foot"><span class="card-price">Grey</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Wide%20Leg%20Sweatpants" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="denim">
+      <div class="card-frame"><img src="https://i.imgur.com/r69BCO0.jpeg" alt="Light wash denim jeans" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Denim</p>
+        <h3 class="card-title">Light Wash Denim</h3>
+        <div class="card-foot"><span class="card-price">Slim fit</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Light%20Wash%20Denim" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="tee">
+      <div class="card-frame"><img src="https://i.imgur.com/fA4es4s.jpeg" alt="Abstract art print tee, white" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tees</p>
+        <h3 class="card-title">Abstract Art Tee</h3>
+        <div class="card-foot"><span class="card-price">White</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Abstract%20Art%20Tee" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="tee">
+      <div class="card-frame"><img src="https://i.imgur.com/fA4es4s.jpeg" alt="Game Over tic tac toe graphic tee, black" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tees</p>
+        <h3 class="card-title">Game Over Graphic Tee</h3>
+        <div class="card-foot"><span class="card-price">Black</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Game%20Over%20Graphic%20Tee" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="shorts">
+      <div class="card-frame"><span class="card-tag">New In</span><img src="https://i.imgur.com/fo0t8Sx.jpeg" alt="Burgundy velvet shorts" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Shorts</p>
+        <h3 class="card-title">Velvet Shorts</h3>
+        <div class="card-foot"><span class="card-price">Burgundy</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Velvet%20Shorts" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="tee">
+      <div class="card-frame"><img src="https://i.imgur.com/REXPLHd.jpeg" alt="Mustard yellow Tailor graphic tee" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tees</p>
+        <h3 class="card-title">Tailor Graphic Tee</h3>
+        <div class="card-foot"><span class="card-price">Mustard</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Tailor%20Graphic%20Tee" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="footwear">
+      <div class="card-frame"><img src="https://i.imgur.com/jb8ZV1m.jpeg" alt="Beige textured slides" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Footwear</p>
+        <h3 class="card-title">Textured Slides</h3>
+        <div class="card-foot"><span class="card-price">Beige</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Textured%20Slides" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="denim">
+      <div class="card-frame"><span class="card-tag">New In</span><img src="https://i.imgur.com/aZzwyWF.jpeg" alt="Black flare jeans with red chain detail" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Denim</p>
+        <h3 class="card-title">Flare Jeans with Chain Detail</h3>
+        <div class="card-foot"><span class="card-price">Black</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Flare%20Jeans%20with%20Chain%20Detail" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="denim">
+      <div class="card-frame"><img src="https://i.imgur.com/ZZg9EPL.jpeg" alt="Light wash distressed jeans with rhinestone detail" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Denim</p>
+        <h3 class="card-title">Rhinestone Distressed Jeans</h3>
+        <div class="card-foot"><span class="card-price">Light Wash</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Rhinestone%20Distressed%20Jeans" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="tee">
+      <div class="card-frame"><img src="https://i.imgur.com/jc73AG7.jpeg" alt="Olive abstract print tee" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Tees</p>
+        <h3 class="card-title">Olive Print Tee</h3>
+        <div class="card-foot"><span class="card-price">Olive</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Olive%20Print%20Tee" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+    <div class="card" data-cat="footwear">
+      <div class="card-frame"><span class="card-tag">New In</span><img src="https://i.imgur.com/TKQWOYl.jpeg" alt="Silver and black chunky sneakers" class="zoomable" onclick="openLightbox(this.src, this.alt)"></div>
+      <div class="card-body">
+        <p class="card-cat">Footwear</p>
+        <h3 class="card-title">Silver Chunky Trainers</h3>
+        <div class="card-foot"><span class="card-price">Silver / Black</span><a class="card-order" href="https://wa.me/2348064945870?text=Hi%2C%20I'm%20interested%20in%20the%20Silver%20Chunky%20Trainers" target="_blank" rel="noopener">Order →</a></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ===== Lightbox ===== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+    <img id="lightboxImg" src="" alt="" onclick="event.stopPropagation()">
+  </div>
+</section>
+
+<!-- ===== About ===== -->
+<div class="band" id="about">
+  <div class="band-inner">
+    <div class="band-crest"><div class="band-badge">DC</div></div>
+    <div class="band-copy">
+      <p class="eyebrow">Our Story</p>
+      <h3>A Home For Quality Men's Outfit.</h3>
+      <p>De Celestino Collections was built for men who care about how they show up. Jeans, tees, tracksuits, footwear and shorts &mdash; every piece is picked for fit, finish and detail, not just trend.</p>
+      <p>No middlemen, no guesswork. You see it, you like it, you message us, it's yours.</p>
+      <div class="band-stats">
+        <div>
+          <div class="stat-num">200k+</div>
+          <div class="stat-label">Pieces In Stock</div>
+        </div>
+        <div>
+          <div class="stat-num">5</div>
+          <div class="stat-label">Categories</div>
+        </div>
+        <div>
+          <div class="stat-num">24h</div>
+          <div class="stat-label">Response Time</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===== Contact ===== -->
+<section class="contact-wrap" id="contact">
+  <div class="contact-card">
+    <p class="eyebrow">Get In Touch</p>
+    <h2>Ready When You Are.</h2>
+    <p>Spotted something you like? Reach out directly &mdash; no carts, no checkout forms, just a real conversation about what you want.</p>
+    <div class="contact-methods">
+      <a class="contact-pill" href="https://wa.me/2348064945870" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.93 8.93 0 0 0 5.35 1.7h.01a8.92 8.92 0 0 0 8.92-8.91 8.86 8.86 0 0 0-3.38-6.2zM12.06 19.6h-.01a7.4 7.4 0 0 1-3.77-1.04l-.27-.16-2.8.96.94-2.73-.18-.28a7.42 7.42 0 0 1-1.15-3.97 7.45 7.45 0 0 1 12.7-5.27 7.38 7.38 0 0 1 2.18 5.27 7.45 7.45 0 0 1-7.44 7.42zm4.08-5.57c-.22-.11-1.32-.65-1.53-.73-.2-.07-.35-.11-.5.11-.15.22-.58.73-.71.88-.13.15-.26.16-.48.05-.22-.11-1.4-.52-2.04-1.96-.16-.27.16-.27.45-.9.05-.1.03-.19-.02-.27-.05-.08-.43-1.04-.59-1.42-.15-.37-.31-.32-.43-.32-.11-.01-.24-.01-.37-.01-.13 0-.34.05-.52.27-.18.22-.69.68-.69 1.65 0 .97.71 1.91.81 2.04.1.13 1.39 2.13 3.42 2.9 1.66.63 2 .52 2.36.49.36-.04 1.16-.47 1.32-.93.17-.46.17-.85.12-.93-.05-.08-.18-.13-.4-.24z"/></svg>
+        WhatsApp: 0806 494 5870
+      </a>
+      <a class="contact-pill" href="tel:09037999885">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.32.57 3.55.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.23.2 2.43.57 3.55a1 1 0 0 1-.25 1.01l-2.2 2.23z"/></svg>
+        Call: 0903 799 9885
+      </a>
+      <a class="contact-pill" href="mailto:aziishyco4life@gmail.com">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4-8 5-8-5V6l8 5 8-5z"/></svg>
+        aziishyco4life@gmail.com
+      </a>
+    </div>
+    <p class="contact-location">📍 9 Km 4, Orji Okigwe Road, Owerri — Opposite Orji Town Primary School</p>
+  </div>
+</section>
+
+<!-- ===== Footer ===== -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <div class="footer-badge">DC</div>
+      <div class="footer-brand-text">De Celestino
+        <span>COLLECTIONS</span>
+      </div>
+    </div>
+    <div class="footer-meta">
+      A Home For Quality Men's Outfit<br>
+      <a href="tel:09037999885">0903 799 9885</a> &nbsp;·&nbsp;
+      <a href="https://wa.me/2348064945870" target="_blank" rel="noopener">WhatsApp</a> &nbsp;·&nbsp;
+      <a href="mailto:aziishyco4life@gmail.com">Email</a>
+    </div>
+  </div>
+  <div class="footer-bottom">&copy; 2026 De Celestino Collections. All rights reserved.</div>
+</footer>
+
+<!-- ===== Floating WhatsApp ===== -->
+<a class="float-wa" href="https://wa.me/2348064945870" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.6 6.32A8.86 8.86 0 0 0 12.05 4a8.94 8.94 0 0 0-7.74 13.4L3 21l3.7-1.27a8.93 8.93 0 0 0 5.35 1.7h.01a8.92 8.92 0 0 0 8.92-8.91 8.86 8.86 0 0 0-3.38-6.2zM12.06 19.6h-.01a7.4 7.4 0 0 1-3.77-1.04l-.27-.16-2.8.96.94-2.73-.18-.28a7.42 7.42 0 0 1-1.15-3.97 7.45 7.45 0 0 1 12.7-5.27 7.38 7.38 0 0 1 2.18 5.27 7.45 7.45 0 0 1-7.44 7.42zm4.08-5.57c-.22-.11-1.32-.65-1.53-.73-.2-.07-.35-.11-.5.11-.15.22-.58.73-.71.88-.13.15-.26.16-.48.05-.22-.11-1.4-.52-2.04-1.96-.16-.27.16-.27.45-.9.05-.1.03-.19-.02-.27-.05-.08-.43-1.04-.59-1.42-.15-.37-.31-.32-.43-.32-.11-.01-.24-.01-.37-.01-.13 0-.34.05-.52.27-.18.22-.69.68-.69 1.65 0 .97.71 1.91.81 2.04.1.13 1.39 2.13 3.42 2.9 1.66.63 2 .52 2.36.49.36-.04 1.16-.47 1.32-.93.17-.46.17-.85.12-.93-.05-.08-.18-.13-.4-.24z"/></svg>
+  <span>Order on WhatsApp</span>
+</a>
+
+<script src="script.js"></script>
+</body>
+</html>
